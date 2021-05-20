@@ -1,0 +1,46 @@
+/* iPad Pro */
+
+@media only screen and (max-width: 1024px) {
+    body {
+        overflow: hidden;
+    }
+    .topnav a.icon {
+        display: inline;
+    }
+    .container-2 ul {
+        display: none;
+    }
+    .topnav {}
+    .logo .ii {
+        position: relative;
+        left: 55%;
+    }
+}
+
+
+/* i Pad */
+
+@media only screen and (max-width: 768px) {
+    body {
+        width: 768px;
+        margin: auto;
+        line-height: 1;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat (2, 1fr);
+        margin: 5px 5px;
+        padding: 5px 5px;
+    }
+    .logo .ii {
+        position: relative;
+        left: 45%;
+    }
+}
+
+
+/* iPhone */
+
+@media only screen and (max-width: 375px) {
+    .carousel-slide img {}
+}

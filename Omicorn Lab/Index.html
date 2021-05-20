@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="mediaQ.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Welcome to OmicornLab!</title>
+</head>
+
+<body>
+    <section class="Navigation">
+        <div class="container">
+            <nav>
+                <a href="">Home</a>
+                <a href="">Products</a>
+                <a href="">Docs</a>
+                <a href="">Community</a>
+                <a href="">Blog</a>
+                <p>ভাষা হোক উন্মুক্ত</p>
+            </nav>
+
+
+
+            <div class="logo">
+                <img src="ImageFolder/logo.png">
+                <i class="fab fa-facebook ii"></i>
+                <i class="fab fa-twitter ii"></i>
+            </div>
+
+
+            <div class="container-2">
+                <!-- Top Navigation Menu -->
+                <div class="topnav">
+
+                    <!-- Navigation links (hidden by default) -->
+                    <div id="myLinks">
+                        <div class="dropdown">
+                            <!-- <a href="">Avro Keyboard   </a> -->
+                            <button class="dropbtn">Avro Keyboard </button>
+                            <div class="dropdown-content">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                            </div>
+                        </div>
+                        <a href="">iAvro </a>
+                        <a href="">ibus-Avro </a>
+                        <a href="">Bangla Fonts</a>
+                        <a href="">Others</a>
+                        <a href="">Blog </a>
+                        <a href="">Help & Support </a>
+                        <a href="">Developers </a>
+                    </div>
+
+                    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fas fa-bars"></i>
+                    </a>
+                </div>
+                <!-- Top Navigation Menu End Here-->
+                <ul>
+                    <li>
+                        <a href="">
+                            <i class="fa fa-home"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">Avro Keyboard <br> for windows</a>
+                    </li>
+                    <li>
+                        <a href="">iAvro <br> for macOS</a>
+                    </li>
+                    <li>
+                        <a href="">ibus-Avro <br>for Linux</a>
+                    </li>
+                    <li>
+                        <a href="">Bangla Fonts <br>Unicode/Ansi fonts</a>
+                    </li>
+                    <li>
+                        <a href="">Others <br>Misc.goodies</a>
+                    </li>
+                    <li>
+                        <a href="">Blog <br>Stay Updated!</a>
+                    </li>
+                    <li>
+                        <a href="">Help & Support <br>Forum & Help files</a>
+                    </li>
+                    <li>
+                        <a href="">Developers <br>Repositories and Resources</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+    <section>
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <img src="ImageFolder/bangla-fonts.jpg" id="lastClone">
+
+                <img src="ImageFolder/avro-chrome.jpg" alt="">
+                <img src="ImageFolder/avro-keyboard.jpg" alt="">
+                <img src="ImageFolder/avro-keyboard-portable.jpg" alt="">
+                <img src="ImageFolder/ibus-avro-ubuntu.jpg" alt="">
+                <img src="ImageFolder/iavro.jpg" alt="">
+                <img src="ImageFolder/bangla-fonts.jpg" alt="">
+
+                <img src="ImageFolder/avro-chrome.jpg" id="fisrtClone">
+
+            </div>
+        </div>
+        <div class="button">
+            <button id="left" class="w3-large" onclick="plusDivs(-1)">&#10094;</button>
+            <button id=" right " class="w3-large" onclick="plusDivs(+1)">&#10095;</button>
+        </div>
+        <!--
+        <button id="left">
+          <i class="fas fa-chevron-left">
+        Next
+        </button>
+        <button id="right">
+            Previous
+        </button> -->
+    </section>
+
+    <section>
+        <div class="box">
+            <div class="grid-container">
+                <div class="divs">
+                    <span> <img src="/Omicorn Lab/ImageFolder/windows.svg">
+                        <a href="">Avro Keyboard for Windows</a>
+                    </span>
+                    <p>Unicode/ANSI supported Bangla typing software & Spell Checker for Windows. Supports Windows 2000 to Window 8.</p>
+
+                </div>
+                <div class="divs">
+                    <img src="/Omicorn Lab/ImageFolder/windows.svg">
+                    <span>
+                        <a href="">Avro Keyboard (Portable Edition) for Windows</a></span>
+                    <p>An special portable edition of Avro Keyboard that can run from portable drive on any machine & doesn't need any installation or pre-installed Bangla fonts</p>
+
+                </div>
+                <div class="divs">
+                    <img src="/Omicorn Lab/ImageFolder/mac os.svg">
+                    <span>
+                        <a href="">iAvro for Mac OS X</a></span>
+                    <p>Native full featured Avro Phonetic for Mac OS X. Supports Mac OS X Lion, Mountain Lion.</p>
+                </div>
+                <div class="divs">
+                    <img src="/Omicorn Lab/ImageFolder/typography.svg">
+                    <span><a href="">Free Bangla Fonts</a></span>
+                    <p>Free high quality Unicode compliant OTF and ANSI Bangla fonts. Perfect companion to Avro.</p>
+                </div>
+                <div class="divs">
+                    <img src="/Omicorn Lab/ImageFolder/iconfinder_linux_2333386.svg">
+                    <span><a href="">ibus-avro for Linux</a></span>
+                    <p>Full featured Avro Phonetic for Linux. Ubuntu, Mint, Fedora, OpenSUSE are officially supported.</p>
+                </div>
+                <div class="divs">
+                    <img src="/Omicorn Lab/ImageFolder/iconfinder_Chrome_1378034.svg">
+                    <span><a href="">Avro Phonetic for Chrome</a></span>
+                    <p>Lightweight Avro Phonetic as Google Chrome Extension. Runs on Windows, Linux and Mac OS X.</p>
+                </div>
+                <div class="divs">
+                    <img src="/Omicorn Lab/ImageFolder/tools.svg">
+                    <span><a href="">Tool: Font Fixer</a></span>
+                    <p>If you don't like Vrinda, set your favorite Bangla font as default on Windows.</p>
+                </div>
+                <div class="divs">
+                    <img src="/Omicorn Lab/ImageFolder/tools.svg">
+                    <span><a href="">Tool: iComplex Full</a></span>
+                    <p>Install Bangla support with a single click in Windows 2000 and Windows Xp. No Windows installation disk required..</p>
+                </div>
+                <div class="divs">
+                    <img src="/Omicorn Lab/ImageFolder/tools.svg">
+                    <span><a href="">Tool: iComplex Lite</a></span>
+                    <p>Install Bangla support with a single click in Windows 2000 and Windows Xp. Smaller in size, but Windows installation disk is required.</p>
+                </div>
+                <div class="divs">
+                    <img src="/Omicorn Lab/ImageFolder/documents.svg">
+                    <span><a href="">Documentations and Help files</a></span>
+                    <p>Help files and documentations.</p>
+                </div>
+                <div class="divs">
+                    <img src="/Omicorn Lab/ImageFolder/community.svg">
+                    <span><a href="">Community Support</a></span>
+                    <p>User forum. Help others and get help.</p>
+                </div>
+                <div class="divs">
+                    <img src="/Omicorn Lab/ImageFolder/leaf.svg">
+                    <span><a href="">Developer Resources</a></span>
+                    <p>For developers. OmicronLab products are open source and free, here we have listed all public accessible source code repositories of our products.</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="arrow">
+            <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+        </div>
+    </section>
+
+    <!-- Footer Section  -->
+    <section>
+        <div class="f-container">
+            <div class="listItems">
+                <a href="">Home</a>
+
+                <a href="">Products</a>
+
+                <a href="">docs</a>
+
+                <a href="">Community</a>
+
+                <a href="">Blog</a>
+
+            </div>
+            <div class="social">
+                <a href=""><i class="fab fa-facebook">Like</i></a>
+                <a href=""><i class="fab fa-twitter">Follow</i></a>
+            </div>
+            <div class="newsletter">
+                <h3>Newsletter Signup</h3>
+                <form>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" placeholder="Enter Email">
+                </form>
+                <button class="signUP">
+                    Sign me Up!
+                </button>
+            </div>
+
+        </div>
+        <div class="f2-container">
+            <div>
+                <p>Copyrights © OmicronLab. Licensed under <a href="#">Creative Commons.</a></p>
+                <p>Generated with <a href="#">Jekyll.</a></p>
+                <p>Visit Official Website
+                    <a href="https://www.omicronlab.com/" target="_blank">OmicornLab</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- JavaScript -->
+    <script src=" App.js "></script>
+</body>
+
+</html>
